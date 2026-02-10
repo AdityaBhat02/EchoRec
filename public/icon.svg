@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c084fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="#1a1a1a" />
+  <circle cx="256" cy="256" r="240" fill="url(#grad)" opacity="0.2" />
+  <g transform="translate(106, 128) scale(0.6)">
+    <rect x="50" y="200" width="40" height="112" rx="20" fill="white">
+      <animate attributeName="height" values="112;256;112" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="200;128;200" dur="2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="130" y="160" width="40" height="192" rx="20" fill="white">
+      <animate attributeName="height" values="192;320;192" dur="1.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="160;96;160" dur="1.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="210" y="128" width="40" height="256" rx="20" fill="white">
+       <animate attributeName="height" values="256;128;256" dur="2.2s" repeatCount="indefinite" />
+       <animate attributeName="y" values="128;192;128" dur="2.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="290" y="180" width="40" height="152" rx="20" fill="white">
+       <animate attributeName="height" values="152;280;152" dur="1.8s" repeatCount="indefinite" />
+       <animate attributeName="y" values="180;116;180" dur="1.8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="370" y="210" width="40" height="92" rx="20" fill="white">
+       <animate attributeName="height" values="92;192;92" dur="2.5s" repeatCount="indefinite" />
+       <animate attributeName="y" values="210;160;210" dur="2.5s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
