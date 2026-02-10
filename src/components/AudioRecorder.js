@@ -90,7 +90,7 @@ export default function AudioRecorder({ onAudioCaptured, isAnalyzing, onRecordin
             timerIntervalRef.current = setInterval(() => {
                 setRecordingTime((prev) => {
                     const time = prev + 1;
-                    if (time >= 4) {
+                    if (time >= 6) {
                         stopInternal();
                     }
                     return time;
@@ -346,8 +346,8 @@ export default function AudioRecorder({ onAudioCaptured, isAnalyzing, onRecordin
                 </h2>
                 <p className="text-white/60 text-sm font-medium">
                     {isRecording
-                        ? `Listening... (Auto-search in ${4 - recordingTime}s)`
-                        : "Tap to Listen (Auto-detects in 4s)"}
+                        ? `Listening... (Auto-search in ${6 - recordingTime}s)`
+                        : "Tap to Listen (Auto-detects in 6s)"}
                 </p>
             </div>
         </div>
